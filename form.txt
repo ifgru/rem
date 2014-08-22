@@ -1,0 +1,34 @@
+ <?php
+                
+            ?>
+            
+            <div id="Formulario">
+                <form action="rematricular.php" method="POST">
+                    Matutino: <input type="radio" name="Horario" value="Matutino">
+                    Vespertino: <input type="radio" name="Horario" value="Vespertino">
+                    Noturno: <input type="radio" name="Horario" value="Noturno" checked="true"><br>
+                    <input type="text" name="AL_PRONT" value="PRONTUARIO" readonly="true" id="InputOnly">
+                    <input type="text" name="AL_NOME" value="NOME COMPLETO" readonly="true" id="InputOnly">
+                    <input type="text" name="AL_ENDER" value="NOME DA RUA">
+                    <input type="text" name="AL_ENDERNUM" value="NUMERO">
+                    <input type="text" name="AL_APTO" value="COMPLEMENTO">
+                    <input type="text" name="AL_BAIRRO" value="BAIRRO">
+                    <input type="text" name="AL_CIDADE" value="CIDADE">
+                    <input type="text" name="AL_NASC" value="DT NASCIMENTO" readonly="true" id="InputOnly">
+                    <input type="text" name="AL_NASCCID" value="CID NASCIMENTO" readonly="true" id="InputOnly">
+                    <input type="text" name="AL_TELDDD" value="DDD">
+                    <input type="text" name="AL_TELNUM" value="TELEFONE">
+                    <input type="text" name="AL_CEP" value="CEP">
+                    <input type="text" name="AL_PAI" value="NOME PAI" readonly="true" id="InputOnly">
+                    <input type="text" name="AL_MAE" value="NOME MAE" readonly="true" id="InputOnly">
+                    <input type="text" name="AL_SEXO" value="SEXO" readonly="true" id="InputOnly">
+                    <input type="text" name="AL_EMAIL" value="EMAIL">
+                    <input type="text" name="AL_CPF" value="CPF" readonly="true" id="InputOnly">
+                    <input type="reset" value="Cancelar">
+                    <input type="submit" value="Rematricular">
+                </form>
+                </div>
+            </div>
+            
+        </div>
+    </body>

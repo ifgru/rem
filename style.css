@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/08/2014, 09:32:36
+    Author     : jairo
+*/
+
+html {
+    heigth: 100%;
+}
+
+body {
+    background-color: #6aa65c;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+#divPrincipal {
+    border-left: 1px;
+    border-right: 1px;
+    width: 800px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 100%;
+    height: auto;
+    position: relative;
+    background-color: #defdd7;  
+    
+    
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;    
+}
+
+#Logo {
+    position: relative;
+    margin-top: 10px;
+    font-size: x-large;
+}
+
+#Campus {
+    margin-top: 30px;
+    margin-left: 10px;
+    position: relative;
+}
+
+#InputOnly {
+    color: #8e928d;
+}
+
+#Formulario {
+    position: relative;
+    margin-top: 30px;
+}
